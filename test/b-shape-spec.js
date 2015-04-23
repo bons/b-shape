@@ -12,7 +12,7 @@ describe('Test Suite: bShape', function()
   function injectHTML()
   {
     var body  = document.querySelector("body");
-    body.innerHTML = '<canvas b-shape type="circle" width="100px" height="100px"></canvas>';
+    body.innerHTML = '<canvas b-shape type="circle" width="100px" percent="30"  height="100px"></canvas><canvas b-shape type="circle" width="100px" height="100px"></canvas>';
 
     $compile(body)(scope);
 
@@ -38,6 +38,5 @@ describe('Test Suite: bShape', function()
   it('', function()
   {
     injectHTML();
-
   });
 });
