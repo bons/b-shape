@@ -21,7 +21,7 @@
       "url": "https://github.com/bons/b-shape/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "dist/b-shape.min.js",
+  "main": "lib/b-shape.js",
   "engines": {
     "node": ">= 0.8.0"
   },
